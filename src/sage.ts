@@ -1,3 +1,10 @@
+import 'dotenv/config';
+console.log('BOT_CLIENT_ID:', process.env.BOT_CLIENT_ID);
+console.log('BOT_NAME:', process.env.BOT_NAME);
+console.log('BOT_TOKEN:', process.env.BOT_TOKEN);
+console.log('DB_CONNECTION:', process.env.DB_CONNECTION);
+console.log('GITHUB_TOKEN:', process.env.GITHUB_TOKEN);
+console.log('PREFIX:', process.env.PREFIX);
 import 'module-alias/register';
 import consoleStamp from 'console-stamp';
 import { MongoClient } from 'mongodb';
