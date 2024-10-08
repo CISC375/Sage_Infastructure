@@ -5,6 +5,7 @@ console.log('BOT_TOKEN:', process.env.BOT_TOKEN);
 console.log('DB_CONNECTION:', process.env.DB_CONNECTION);
 console.log('GITHUB_TOKEN:', process.env.GITHUB_TOKEN);
 console.log('PREFIX:', process.env.PREFIX);
+console.log('DB_USERS:', process.env.DB_USERS);
 import 'module-alias/register';
 import consoleStamp from 'console-stamp';
 import { MongoClient } from 'mongodb';
